@@ -14,7 +14,6 @@ const AlertState = props => {
 			dispatch({ type: REMOVE_ALERT });
 		}, 5000);
 	};
-	//REMOVE_ALERT
 	return (
 		<AlertContext.Provider value={{ alert: state.alert, showAlert }}>
 			{props.children}
